@@ -1,0 +1,35 @@
+<h1>Payment Results</h1>
+
+<dl>
+  <dt>
+    APR
+  </dt>
+  <dd>
+    <%= @p_apr %>
+  </dd>
+
+  <dt>
+    Number of years
+  </dt>
+  <dd>
+    <%= @p_years %>
+  </dd>
+
+  <dt>
+    Principal
+  </dt>
+  <dd>
+    <%= @p_principal %>
+  </dd>
+
+  <dt>
+    Payment
+  </dt>
+  <dd>
+    <%= @p_result %>
+  </dd>
+</dl>
+
+<a href="/payment/new">
+  Calculate another payment
+</a>
